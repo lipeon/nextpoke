@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <div>
-      Hello AirBNB!
+    <div className="p-4">
+      Home
     </div>
   )
 }
