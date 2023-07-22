@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import SignInButton from "./SignInButton";
 
 const Navbar = () => {
   return (
@@ -15,10 +16,7 @@ const Navbar = () => {
           <Link href="/perfil">Perfil</Link>
         </li>
       </ul>
-      <ul className="flex">
-        <li className="p-2 cursor-pointer">Login</li>
-        <li className="p-2 cursor-pointer">Login</li>
-      </ul>
+    <SignInButton></SignInButton>
     </div>
   );
 };
