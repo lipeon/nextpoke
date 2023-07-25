@@ -3,11 +3,10 @@ import React from "react";
 import { signIn, signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 
-
 const SignInButton = () => {
   const { data: session } = useSession();
   //console.log(session);
-  
+
   return (
     <>
       {session ? (
@@ -45,8 +44,7 @@ const SignInButton = () => {
                 Login
               </button>
             </li>
-            <li className="p-2 cursor-pointer">
-            </li>
+            <li className="p-2 cursor-pointer"></li>
           </ul>
         </>
       )}
