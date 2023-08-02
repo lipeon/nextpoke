@@ -16,7 +16,7 @@ const MenuBar = () => {
           <Link href="/">Home</Link>
         </li>
         <li className="p-2 cursor-pointer">
-          <Link href="/sobre">Sobre</Link>
+          <Link href="/jogar">Jogar</Link>
         </li>
         <li className="p-2 cursor-pointer">
           <Link href="/perfil">Perfil</Link>
